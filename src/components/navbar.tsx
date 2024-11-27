@@ -39,7 +39,7 @@ const Navbar = () => {
               className="flex md:hidden aspect-square size-24"
             />
           </div>
-          <Navlinks navLinks={navLinks} className="hidden md:flex" />
+          <Navlinks navLinks={navLinks} className="hidden lg:flex" />
         </div>
         <div className="w-1/2 flex items-center justify-end">
           <Button variant="default" className="md:flex hidden">
