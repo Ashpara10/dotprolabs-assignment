@@ -44,7 +44,7 @@ const Faq = () => {
           return (
             <AccordionItem
               value={`item-${index}`}
-              className="w-full px-6 lg:px-12 py-2 border-b border-[#F7F9FF05]/15"
+              className="w-full px-6  lg:px-12 py-2 border-b border-[#F7F9FF05]/15"
             >
               <AccordionTrigger className="md:text-lg hover:no-underline ">
                 {faq.question}{" "}
