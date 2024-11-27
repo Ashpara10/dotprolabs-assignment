@@ -33,9 +33,9 @@ const Navbar = () => {
       <nav className="md:max-w-7xl w-full flex items-center justify-center">
         <div className="w-full flex items-center justify-between ">
           <div className="pt-3">
-            <img src="src/assets/logo3.png" className="hidden md:flex" />
+            <img src="/logo3.png" className="hidden md:flex" />
             <img
-              src="src/assets/moon.png"
+              src="/moon.png"
               className="flex md:hidden aspect-square size-24"
             />
           </div>
@@ -100,7 +100,7 @@ const SlidingMenu = ({
       <SheetContent className="bg-[#051422] border-white/5 flex flex-col items-center justify-between">
         <div className="w-full">
           <SheetHeader>
-            <img src="src/assets/moon.png" className="aspect-square size-24" />
+            <img src="/moon.png" className="aspect-square size-24" />
           </SheetHeader>
           <Navlinks
             navLinks={navLinks}

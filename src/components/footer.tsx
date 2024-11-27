@@ -24,7 +24,7 @@ const Footer = () => {
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-start md:items-center justify-center">
         <div className="w-1/5 flex items-center justify-center">
-          <img src="src/assets/moon.png" className="aspect-square " />
+          <img src="/moon.png" className="aspect-square " />
         </div>
         <ul className="w-full flex flex-col md:flex-row list-none gap-2 ml-4 md:items-center items-start justify-evenly">
           {navLinks.map((link, i) => {
@@ -43,9 +43,9 @@ const Footer = () => {
             Contact <span className="ml-3 text-[#E4B40D]">Us</span>
           </h4>
           <div className="flex items-center justify-center  mt-4 gap-6">
-            <img src="/src/assets/telegram.svg" />
-            <img src="/src/assets/reddit.svg" />
-            <img src="/src/assets/twitter.svg" />
+            <img src="/telegram.svg" />
+            <img src="/reddit.svg" />
+            <img src="/twitter.svg" />
           </div>
         </div>
       </div>

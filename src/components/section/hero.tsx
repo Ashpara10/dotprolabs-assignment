@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Circles Bg */}
       <div className="absolute top-16 md:-top-16 -z-50 md:right-0 md:left-0 overflow-hidden">
         <img
-          src="./src/assets/circles.png"
+          src="/circles.png"
           alt="circle-patter-bg"
           className="h-full w-full "
         />
@@ -41,28 +41,18 @@ const Hero = () => {
       {/* Gradient Ball */}
       {/* star */}
       <img
-        src="./src/assets/star.png"
+        src="/star.png"
         className="absolute left-[10%] top-[16%] size-12 md:size-auto md:top-[20%]"
       />
       {/* star */}
       {/* star */}
-      <img
-        src="./src/assets/star.png"
-        className="absolute  right-[14%] bottom-[15%]"
-      />
+      <img src="/star.png" className="absolute  right-[14%] bottom-[15%]" />
       {/* star */}
       {/* star */}
-      <img
-        src="./src/assets/star2.png"
-        className="absolute  right-[15%] top-[10%]"
-      />
+      <img src="/star2.png" className="absolute  right-[15%] top-[10%]" />
       {/* star */}
       <div className="absolute right-0 hidden md:flex">
-        <img
-          src="./src/assets/bg-gradient.png"
-          alt="hero"
-          className="h-full w-full"
-        />
+        <img src="/bg-gradient.png" alt="hero" className="h-full w-full" />
       </div>
     </section>
   );

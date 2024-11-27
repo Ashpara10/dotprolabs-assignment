@@ -3,24 +3,24 @@ import FeatureCard, { FeatureCardProps } from "../feature-card";
 const Features = () => {
   const features: FeatureCardProps[] = [
     {
-      icon: "./src/assets/f1.png",
+      icon: "/f1.png",
       title: "Cheapest TXs",
       description:
         "Exchange popular digital currencies at the cheapest possible transaction price",
     },
     {
-      icon: "./src/assets/f4.png",
+      icon: "/f4.png",
       title: "CerTIK ",
       description:
         "We are Audited by Certik. CertiK is the leading security-focused ranking platform to ",
     },
     {
-      icon: "./src/assets/f2.png",
+      icon: "/f2.png",
       title: "No Contract Sells",
       description: "No contract sells to fund the marketing wallets",
     },
     {
-      icon: "./src/assets/f3.png",
+      icon: "/f3.png",
       title: "CrossDex Support",
       description:
         "Exchange popular digital currencies at the cheapest possible transaction price",

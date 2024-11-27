@@ -22,20 +22,20 @@ const About = () => {
           <Table className="w-full ">
             <TableHeader className="w-full ">
               <TableHead className="w-[40%] px-2 text-left">
-                <img className="" src="src/assets/Comparison.png" />
+                <img className="" src="/Comparison.png" />
               </TableHead>
               <TableHead className="px-2">
-                <img className="hidden md:flex" src="src/assets/logo2.png" />
+                <img className="hidden md:flex" src="/logo2.png" />
                 <img
                   className="md:hidden flex aspect-square size-16"
-                  src="src/assets/moonex.png"
+                  src="/moonex.png"
                 />
               </TableHead>
               <TableHead className="px-2 ">
-                <img className="hidden md:flex" src="src/assets/uniswap.png" />
+                <img className="hidden md:flex" src="/uniswap.png" />
                 <img
                   className="md:hidden flex size-16 aspect-square"
-                  src="src/assets/uniswap-logo.png"
+                  src="/uniswap-logo.png"
                 />
               </TableHead>
             </TableHeader>
@@ -45,10 +45,10 @@ const About = () => {
                   1. Point no one this
                 </TableCell>
                 <TableCell className="">
-                  <img src="src/assets/check_bold.png" />
+                  <img src="/check_bold.png" />
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/coolicon.png" />
+                  <img src="/coolicon.png" />
                 </TableCell>
               </TableRow>
               <TableRow>
@@ -56,10 +56,10 @@ const About = () => {
                   2. Point no two this
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/check_bold.png" />
+                  <img src="/check_bold.png" />
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/coolicon.png" />
+                  <img src="/coolicon.png" />
                 </TableCell>
               </TableRow>
               <TableRow className="">
@@ -67,10 +67,10 @@ const About = () => {
                   3. Point no two this
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/check_bold.png" />
+                  <img src="/check_bold.png" />
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/coolicon.png" />
+                  <img src="/coolicon.png" />
                 </TableCell>
               </TableRow>
               <TableRow className="w-full">
@@ -78,10 +78,10 @@ const About = () => {
                   4. Point no two this
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/check_bold.png" />
+                  <img src="/check_bold.png" />
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/coolicon.png" />
+                  <img src="/coolicon.png" />
                 </TableCell>
               </TableRow>
               <TableRow className="w-full">
@@ -89,10 +89,10 @@ const About = () => {
                   5. Point no two this
                 </TableCell>{" "}
                 <TableCell>
-                  <img src="src/assets/check_bold.png" />
+                  <img src="/check_bold.png" />
                 </TableCell>
                 <TableCell>
-                  <img src="src/assets/coolicon.png" />
+                  <img src="/coolicon.png" />
                 </TableCell>
               </TableRow>
             </TableBody>
